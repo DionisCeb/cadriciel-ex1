@@ -1,0 +1,13 @@
+1. composer create-project --prefer-dist laravel/laravel cvlaravel
+3. php artisan make:controller HomeController
+      mkdir -p resources/views
+      touch resources/views/home.blade.php
+   php artisan make:controller ResumeController
+      mkdir -p resources/views
+      touch resources/views/resume.blade.php
+   php artisan make:controller ProjectsController
+      mkdir -p resources/views
+      touch resources/views/projects.blade.php
+   php artisan make:controller ContactController
+      mkdir -p resources/views
+      touch resources/views/contact.blade.php
